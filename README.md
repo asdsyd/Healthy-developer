@@ -12,3 +12,6 @@
 ### This website contains all the goodies and tips that makes a developer healthy wealthy and wise ;)
 ### Medically proven to productivity tips used by senior developers.
 ## Open Sourced !! So start contributing this hacktober!!
+<div align="center">
+<h3>Made with &#10084; with Open Source Team</h3>
+</div>
