@@ -7,9 +7,12 @@ Let's face it. As developers, it's easy to let things get a bit out of hand heal
 We think, if healthier practices were adopted, developers would be much more productive and would be able to accomplish some tasks in less time simply because the brain is much clearer.
 <div>
 <ul>
+ <li>Quit eating lunch at your desk</li>
 <li>Use Meal planning to boost your nutrition.</li>
+ <li>Drink sufficient Water</li>
 <li>Do Exercise for better productivity.</li>
 <li>Practice self care to improve mental health.</li>
+  <li>Take pauses</li>
 <li>Take screen break to decrease tension and reduce eye strain.</li>
 </ul>
 </div>
