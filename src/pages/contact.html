@@ -1,47 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <title>Contact us</title>
+    <link rel="stylesheet" href="../assets/contact.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Contact us</title>
-  <link rel="stylesheet" href="../assets/contact.css" />
-</head>
-
-<body>
-  <h1 class="">Contact us</h1>
-  <div class="container">
-    <div class="multiple-columns">
+  <body>
+    <h1 class="">Contact us</h1>
+    <div class="container">
+      <div class="multiple-columns">
+        <label class="pure-material-textfield-outlined">
+          <input placeholder=" " />
+          <span>First Name *</span>
+        </label>
+        <label class="pure-material-textfield-outlined">
+          <input placeholder=" " />
+          <span>Last Name</span>
+        </label>
+      </div>
+      <div class="multiple-columns">
+        <label class="pure-material-textfield-outlined">
+          <input placeholder=" " type="email" />
+          <span>Email</span>
+        </label>
+        <label class="pure-material-textfield-outlined">
+          <input placeholder=" " />
+          <span>Phone</span>
+        </label>
+      </div>
       <label class="pure-material-textfield-outlined">
         <input placeholder=" " />
-        <span>First Name *</span>
+        <span>Message</span>
       </label>
-      <label class="pure-material-textfield-outlined">
-        <input placeholder=" " />
-        <span>Last Name</span>
-      </label>
+      <div class="btn-submit">
+        <a href="#">
+          <button class="button-81" role="button">Submit</button>
+        </a>
+      </div>
     </div>
-    <div class="multiple-columns">
-      <label class="pure-material-textfield-outlined">
-        <input placeholder=" " type="email" />
-        <span>Email</span>
-      </label>
-      <label class="pure-material-textfield-outlined">
-        <input placeholder=" " />
-        <span>Phone</span>
-      </label>
-    </div>
-    <label class="pure-material-textfield-outlined">
-      <input placeholder=" " />
-      <span>Message</span>
-    </label>
-    <div class="btn-submit">
-      <a href="#">
-        <button class="button-81" role="button">Submit</button>
-      </a>
-    </div>
-  </div>
-</body>
+  </body>
 
+  <footer class="contact-footer">
+    Healthy Developer &copy; 2022
+
+    <p>
+      <span
+        ><ion-icon class="footer-icon" name="logo-instagram"></ion-icon
+      ></span>
+      <span><ion-icon class="footer-icon" name="logo-twitter"></ion-icon></span>
+      <span><ion-icon class="footer-icon" name="logo-github"></ion-icon></span>
+    </p>
+  </footer>
 </html>
