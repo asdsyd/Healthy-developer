@@ -317,3 +317,26 @@ h1 {
   margin-top: 2px;
   stroke: aliceblue;
 }
+
+.btn-home a:link,
+.btn-home a:visited {
+  padding: 1.2rem 1.8rem;
+  background-color: #845ef7;
+  color: #fff;
+  font-size: 12px;
+  border: 9px;
+  border-radius: 11px;
+  font-weight: 500;
+  transition: all 0.3s;
+}
+
+.btn-home a:hover,
+.btn-home a:active {
+  background-color: #9775fa;
+}
+
+.btn-text {
+  text-align: center;
+  margin-bottom: 60px;
+  margin-top: 30px;
+}
