@@ -1,4 +1,7 @@
 # <p align="center">Healthy-developer<p>
+
+![alt text](healthy developer/Frame 11.png)
+
 ## A Healthy website that every developer must take tips from.
 
 ### Introduction
@@ -17,8 +20,9 @@ We think, If healthier practices were adopted, developers would be much more pro
 </div>
 
 ### This website contains all the goodies and tips that makes a developer healthy wealthy and wise ;)
-### Medically proven to productivity tips used by senior developers.
+### Health to productivity tips used by senior developers.
 ## Open Sourced !! So start contributing this hacktober!!
+## Start your open source contributions while you also get to learn good habits as an early developer. All the best Devs :)
 <div align="center">
 <h3>Made with &#10084; by Open Source Team</h3>
 </div>
