@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQs</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./assets/faq.css">
+    <script>
+        tailwind.config = {
+        theme: {
+            extend: {
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-gray-900">
+    <nav>
+        <ul class="menu">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="#!">About</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+            <li><a href="./faq.html">Faq</a></li>
+        </ul>
+    </nav>
+
+    <div class='flex items-center justify-center mb-8' x-data="{ reportsOpen: false }">
+        <div class='w-full max-w-5xl md:px-10 py-8 mx-auto bg-white rounded-lg shadow-xl'>
+            <div class='max-w-5xl mx-auto space-y-6'>        
+                <div @click="reportsOpen = !reportsOpen" class='flex items-center text-gray-600 w-full border-b overflow-hidden mt-32 md:mt-0 mb-5 mx-auto'>
+                <div class='w-10 border-r px-2 transform transition duration-300 ease-in-out' :class="{'rotate-90': reportsOpen,' -translate-y-0.0': !reportsOpen }">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                </svg>          
+                </div>
+                <div class='flex items-center px-2 py-3'>
+                <div class='mx-3'>
+                    <button class="hover:underline">What is Healthy Developer</button>
+                </div>
+                </div>
+                </div>
+
+                <div class="flex p-5 md:p-0 w-full transform transition duration-300 ease-in-out border-b pb-10"
+                x-cloak x-show="reportsOpen" x-collapse x-collapse.duration.500ms >
+                This website contains all the goodies and tips that makes a developer healthy wealthy and wise
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class='flex items-center justify-center mb-8' x-data="{ reportsOpen: false }">
+        <div class='w-full max-w-5xl px-10 py-8 mx-auto bg-white rounded-lg shadow-xl'>
+            <div class='max-w-5xl mx-auto space-y-6'>        
+                <div @click="reportsOpen = !reportsOpen" class='flex items-center text-gray-600 w-full border-b overflow-hidden mt-32 md:mt-0 mb-5 mx-auto'>
+                <div class='w-10 border-r px-2 transform transition duration-300 ease-in-out' :class="{'rotate-90': reportsOpen,' -translate-y-0.0': !reportsOpen }">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                </svg>          
+                </div>
+                <div class='flex items-center px-2 py-3'>
+                <div class='mx-3'>
+                    <button class="hover:underline">What are healthier practices</button>
+                </div>
+                </div>
+                </div>
+
+                <div class="flex p-5 md:p-0 w-full transform transition duration-300 ease-in-out border-b pb-10"
+                x-cloak x-show="reportsOpen" x-collapse x-collapse.duration.500ms >
+                <ul>
+                    <li>- Use Meal planning to boost your nutrition.</li>
+                    <li>- Do Exercise for better productivity.</li>
+                    <li>- Practice self care to improve mental health.</li>
+                    <li>- Take screen break to decrease tension and reduce eye strain.</li>
+                </ul>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class='flex items-center justify-center mb-8' x-data="{ reportsOpen: false }">
+        <div class='w-full max-w-5xl px-10 py-8 mx-auto bg-white rounded-lg shadow-xl'>
+            <div class='max-w-5xl mx-auto space-y-6'>        
+                <div @click="reportsOpen = !reportsOpen" class='flex items-center text-gray-600 w-full border-b overflow-hidden mt-32 md:mt-0 mb-5 mx-auto'>
+                <div class='w-10 border-r px-2 transform transition duration-300 ease-in-out' :class="{'rotate-90': reportsOpen,' -translate-y-0.0': !reportsOpen }">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                </svg>          
+                </div>
+                <div class='flex items-center px-2 py-3'>
+                <div class='mx-3'>
+                    <button class="hover:underline">What makes developers unhealthy</button>
+                </div>
+                </div>
+                </div>
+
+                <div class="flex p-5 md:p-0 w-full transform transition duration-300 ease-in-out border-b pb-10"
+                x-cloak x-show="reportsOpen" x-collapse x-collapse.duration.500ms >
+                Many times we find ourselves in front of screens for hours on end. We sleep really late (or not at all) sometimes. Unless you're disciplined enough to follow a schedule, you might find yourself not having time to eat proper meals so snacking becomes a habit. All these are usually sacrifices made to fix some bug or find the most efficient solution to some problem. Usually, our health suffers as a result.
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class='flex items-center justify-center mb-8' x-data="{ reportsOpen: false }">
+        <div class='w-full max-w-5xl px-10 py-8 mx-auto bg-white rounded-lg shadow-xl'>
+            <div class='max-w-5xl mx-auto space-y-6'>        
+                <div @click="reportsOpen = !reportsOpen" class='flex items-center text-gray-600 w-full border-b overflow-hidden mt-32 md:mt-0 mb-5 mx-auto'>
+                <div class='w-10 border-r px-2 transform transition duration-300 ease-in-out' :class="{'rotate-90': reportsOpen,' -translate-y-0.0': !reportsOpen }">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                </svg>          
+                </div>
+                <div class='flex items-center px-2 py-3'>
+                <div class='mx-3'>
+                    <button class="hover:underline">Is this website certified</button>
+                </div>
+                </div>
+                </div>
+
+                <div class="flex p-5 md:p-0 w-full transform transition duration-300 ease-in-out border-b pb-10"
+                x-cloak x-show="reportsOpen" x-collapse x-collapse.duration.500ms >
+                Medically proven to productivity tips used by senior developers.
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class='flex items-center justify-center mb-8' x-data="{ reportsOpen: false }">
+        <div class='w-full max-w-5xl px-10 py-8 mx-auto bg-white rounded-lg shadow-xl'>
+            <div class='max-w-5xl mx-auto space-y-6'>        
+                <div @click="reportsOpen = !reportsOpen" class='flex items-center text-gray-600 w-full border-b overflow-hidden mt-32 md:mt-0 mb-5 mx-auto'>
+                <div class='w-10 border-r px-2 transform transition duration-300 ease-in-out' :class="{'rotate-90': reportsOpen,' -translate-y-0.0': !reportsOpen }">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                </svg>          
+                </div>
+                <div class='flex items-center px-2 py-3'>
+                <div class='mx-3'>
+                    <button class="hover:underline">Can we contribute to these healthy tips</button>
+                </div>
+                </div>
+                </div>
+
+                <div class="flex p-5 md:p-0 w-full transform transition duration-300 ease-in-out border-b pb-10"
+                x-cloak x-show="reportsOpen" x-collapse x-collapse.duration.500ms >
+                Yeah, please add tips on our <a href="https://github.com/asdsyd/Healthy-developer" target="_blank" rel="noopener noreferrer" class="font-bold underline"> github</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <script defer src="https://unpkg.com/@alpinejs/collapse@3.x.x/dist/cdn.min.js"></script>
+    <script src="https://unpkg.com/alpinejs" defer></script>
+</body>
+
+</html>
