@@ -1,6 +1,6 @@
 # <p align="center">Healthy-developer<p>
 
-![alt text](healthy-developer/Frame 11.png)
+![alt text](healthy-developer/Frame.png)
 
 ## A Healthy website that every developer must take tips from.
 
