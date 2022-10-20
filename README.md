@@ -1,4 +1,4 @@
-# <p align="center">Healthy-developer<p>
+# <p align="center">Healthy-Developer<p>
 
 ![alt text](healthy-developer/Frame.png)
 
