@@ -1,6 +1,13 @@
 # <p align="center">Healthy-Developer<p>
 
 ![alt text](healthy-developer/Frame.png)
+<p align="center">
+     <img src="https://img.shields.io/github/contributors/asdsyd/Healthy-developer?logo=github" />
+     <img src="https://img.shields.io/github/forks/asdsyd/Healthy-developer?color=light&logo=github" />
+     <img src="https://img.shields.io/github/watchers/asdsyd/Healthy-developer?logo=github" />
+     <img src="https://img.shields.io/github/stars/asdsyd/Healthy-developer?logo=github" />
+    
+</p>
 
 ## A Healthy website that every developer must take tips from.
 
