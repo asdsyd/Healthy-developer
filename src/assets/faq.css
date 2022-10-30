@@ -1,3 +1,7 @@
+ body{
+	height: auto;
+ }
+ 
  .menu {
 	 display: flex;
 	 justify-content: center;
@@ -34,3 +38,15 @@
 		 background-position-x: 390px;
 	}
 }
+
+footer {  
+	background-color: lightgrey;
+	padding: 50px;
+	font-size: 80%;
+	text-align: center;
+	margin-top: 385px;
+	font-weight:bolder;
+   }
+  
+  
+ 
