@@ -3,6 +3,8 @@ body {
   }
   nav{
 	background-color: #1e293be7;
+	padding-top: 43px;
+	padding-bottom: 34px;
   }  
  .menu {
 	display: flex;
