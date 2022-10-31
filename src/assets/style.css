@@ -105,6 +105,9 @@ footer {
   text-align: center;
   margin-top: 385px;
   font-weight:bolder;
+  width: 100%;
+  bottom: 0;
+  position: fixed;
  }
 
 
