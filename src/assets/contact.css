@@ -1,6 +1,7 @@
 body {
   background-color: #181817;
-  padding: 85px 185px;
+  font-family: "Varela Round", sans-serif;
+  margin: 0;
 }
 
 h1 {
@@ -14,12 +15,20 @@ h1 {
 .container {
   display: grid;
   gap: 1rem;
+  padding: 85px 185px;
 }
 
 .multiple-columns {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 1rem;
+}
+
+nav{
+  background-color: #1e293be7;
+  padding-top: 43px;
+  padding-bottom: 34px;
+
 }
 
 .menu {
@@ -340,3 +349,15 @@ h1 {
     }
   }
 }
+footer {  
+  background-color: lightgrey;
+  padding: 50px;
+  font-size: 80%;
+  text-align: center;
+  margin-top: 385px;
+  font-weight:bolder;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  position: fixed;
+ }
