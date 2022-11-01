@@ -14,13 +14,8 @@
 	 height: 100vh;
 	 background: #1c1d22;
 	 font-family: "Varela Round", sans-serif;
-   background-image: url(https://source.unsplash.com/1600x900/?dark-code);
-   background-repeat: none;
-   background-size: cover;
 }
-nav{
-  background-color: #1e293be7;
-}
+
  .menu {
 	 display: flex;
 	 justify-content: center;
@@ -38,8 +33,8 @@ nav{
 }
  .menu li a {
 	 font-size: 22px;
+	 color: #777;
 	 text-decoration: none;
-   color: rgb(196, 196, 196);
 	 transition: all 0.45s;
 }
  .menu li:hover {
@@ -110,9 +105,6 @@ footer {
   text-align: center;
   margin-top: 385px;
   font-weight:bolder;
-  width: 100%;
-  bottom: 0;
-  position: fixed;
  }
 
 
